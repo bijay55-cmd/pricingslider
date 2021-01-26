@@ -146,7 +146,9 @@ p{
    border-radius: 20px;
    padding: 10px 30px;
  }
-
+ .fa{
+color:rgb(77, 165, 77);
+ }
  @media screen and (min-width: 739px){
    .slidecontainer{
      height: 75%;
