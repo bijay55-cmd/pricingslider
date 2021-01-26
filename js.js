@@ -12,8 +12,8 @@ const pageView = ["10k","50k","100k","500k","1M"];
 
 
 slider.oninput = function() {
-year.innerHTML = price[this.value];
-month.innerHTML = discount[this.value];
+year.innerHTML = price[this.value] + ' / month';
+month.innerHTML = discount[this.value] + ' / month';
 views.innerHTML = pageView[this.value];
 }
 
