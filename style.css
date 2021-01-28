@@ -58,7 +58,11 @@ p{
   background: #4CAF50;
   cursor: pointer;
 }
-
+.slider1::-moz-range-progress{
+  height: 10px;
+  border-radius: 25px;
+  background: hsl(174, 86%, 45%);
+}
 .slider1::-moz-range-thumb {
   width: 25px;
   height: 25px;
