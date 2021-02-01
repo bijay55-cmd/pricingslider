@@ -6,7 +6,7 @@ const year = document.getElementById("year");
 const month = document.getElementById("month");
 const views = document.getElementById("pageviews");
 const price = [8,12,16,24,36];
-const discount = [144,216,288,432,648];
+const discount = [72,108,144,216,324];
 const pageView = ["10k","50k","100k","500k","1M"];
 
 
